@@ -2,7 +2,6 @@
 # input: length
 # output: random_password
 
-
 import random
 import string
 password_length=int(input('enter length password\n'))
