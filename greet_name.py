@@ -4,3 +4,5 @@ def greet(name):
     return message
 result=greet("Amr")
 print(result)
+
+
