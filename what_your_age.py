@@ -1,4 +1,4 @@
-age=int(input("what your name"))
+age=int(input("what your age"))
 if age>=30:
     print("you are adult")
 elif age>=8:
