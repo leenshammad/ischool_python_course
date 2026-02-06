@@ -1,0 +1,36 @@
+class BankAccount:
+   
+   def __init__ (self):
+        self.balance = 0
+   
+   
+   def withdraw (self,cash):
+        if cash > self.balance:
+             print("sorry i don't have enough cash😔")
+        else:
+            self.balance=self.balance-cash
+   
+   def deposit (self,cash):
+        self.balance=self.balance+cash
+        
+   
+   def retrieve (self):
+        return self.balance
+
+leen_account=BankAccount()
+print(leen_account.retrieve())
+
+leen_account.deposit(700)
+print(leen_account.retrieve())
+
+leen_account.withdraw(6)
+print(leen_account.retrieve())
+
+leen_account.withdraw(500)
+print(leen_account.retrieve())
+
+Dady_account=BankAccount()
+
+Dady_account.deposit(10000)
+print(Dady_account.retrieve())
+
