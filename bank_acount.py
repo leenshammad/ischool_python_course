@@ -26,7 +26,7 @@ print(leen_account.retrieve())
 leen_account.withdraw(6)
 print(leen_account.retrieve())
 
-leen_account.withdraw(500)
+leen_account.withdraw(700)
 print(leen_account.retrieve())
 
 Dady_account=BankAccount()
