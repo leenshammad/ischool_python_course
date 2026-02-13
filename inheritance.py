@@ -10,3 +10,4 @@ class Circular_slice (Watermelon_slices):
         self.raiduis=raiduis
     def area(self):
         return 3.14*self.raiduis**2
+    print(Watermelon_slices)
