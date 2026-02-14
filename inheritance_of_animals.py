@@ -19,7 +19,7 @@ class Mammal(Animal):
 class Bird(Animal):
     def __init__(self, name, wing_span):
         super().__init__(name)
-        self.wing_span = wing_span  # in centimeters
+        self.wing_span = wing_span  
 
     def speak(self):
        print(f"{self.name} the bird chirps.")
