@@ -1,12 +1,13 @@
 import turtle
-
-pen=turtle.Turtle()
-pen_2=turtle.Turtle()
-
-pen.forward(100)
-pen.circle(100)
+my_turtel=turtle.Turtle()
 
 
-pen_2.backward(150)
-pen_2.circle(25)
+my_turtel.left(90)
+my_turtel.forward(40)
+my_turtel.right(180)
+my_turtel.forward(40)
+my_turtel.left(90)
+my_turtel.forward(40)
+my_turtel.right(180)
+my_turtel.forward(40)
 turtle.done()
