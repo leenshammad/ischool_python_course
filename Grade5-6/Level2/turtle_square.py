@@ -6,6 +6,7 @@ t = turtle.Turtle()
 
 
 for _ in range(4):
+    print(_)
     t.forward(100)
     t.penup()
     t.forward(20)
