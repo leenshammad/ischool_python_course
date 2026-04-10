@@ -1,4 +1,4 @@
-# **L1: Solving on loops**
+# **L1: Solving on loops 🔁**
 
 **Loop 🔁:** A loop is like a magic spell that makes your computer repeat things automatically! It saves us from typing the same code over and over again.
 
@@ -48,7 +48,7 @@ for i in range(8):
         count += 1
 ```
 
-# **L2: Function In Python**
+# **L2: Function In Python ⚙️**
 
 **Function 🛠️:** A function is like a recipe! You write it once, give it a name, and use it whenever you want the computer to do that specific chore.
 
@@ -63,7 +63,7 @@ def say_hello():
 say_hello()
 ```
 
-# **L3: Python Modules**
+# **L3: Python Modules 📦**
 
 **Module 📦:** A module is like a toy box full of extra tools that other smart people wrote. You can open the box and use the tools in your own code!
 
@@ -97,7 +97,7 @@ import math
 help(math)
 ```
 
-# **L4: Solving on Function and Modules**
+# **L4: Solving on Function and Modules 🧩**
 
 **Module 📦:** Remember, this is a file with ready-to-use code!
 
@@ -115,7 +115,7 @@ def greet_user(name):
 greet_user("Mohamed")
 ```
 
-# **L5: Classes and Objects**
+# **L5: Classes and Objects 🏗️**
 
 **Class 🗺️:** A class is like a blueprint or a cookie cutter. It tells the computer how to build something, like a robot!
 
@@ -155,7 +155,7 @@ class Robot:
         self.model = model
 ```
 
-# **L6: Following Classes**
+# **L6: Following Classes 🧬**
 
 **Inheritance 👨‍👧:** When a new object (like a Drone) gets all the cool abilities of its parent (like a base Robot). It inherits them!
 
@@ -184,7 +184,7 @@ class DroneRobot(BaseRobot):
         print("Whirrrrr")
 ```
 
-# **L7: Solving on Classes**
+# **L7: Solving on Classes 🚗**
 
 **Class 🗺️**, **Object 🤖**, **Inheritance 👨‍👧**, and **Function Overriding 🦸‍♀️**:
 
@@ -206,7 +206,7 @@ my_car = Car(120)
 my_car.show_speed()
 ```
 
-# **L8: Built-In Functions**
+# **L8: Built-In Functions 🎁**
 
 **Built-in Function 🎁:** Special tools Python gives us for free from the very beginning. We don't even need to open a box to use them!
 
@@ -231,7 +231,7 @@ print(content)
 file.close()
 ```
 
-# **L9: Turtle Graphic**
+# **L9: Turtle Graphic 🐢**
 
 **Turtle Module in Python 🐢:** A super fun drawing tool where a little virtual turtle moves around the screen and draws lines wherever it goes!
 
@@ -253,7 +253,7 @@ t.pen(pencolor="blue", pensize=5, speed=10)
 t.forward(50)
 ```
 
-# **L10: More Turtle Graphics**
+# **L10: More Turtle Graphics 🐢🎨**
 
 **Drawing with Loops 🔁🐢:** We can use loops to tell the turtle to repeat steps, making shapes like squares easily!
 
@@ -275,7 +275,7 @@ t = turtle.Turtle()
 t.circle(50) # Draws a circle!
 ```
 
-# L11: Tkinter in Python
+# L11: Tkinter in Python 🪟
 
 ### Tkinter 🪟
 A fun tool to build your very own app windows with buttons and text!
